@@ -1,1 +1,3 @@
 2507
+flask --app main run --debug
+npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch
